@@ -7,16 +7,16 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI
+name: Yyhe
 
 on:
-  #push:
-    #branches: 
-      #- master
+  push:
+    branches: 
+      - master
   schedule:
       - cron: 0 20 * * *
-  # release:
-  #   types: [published]
+  release:
+      types: [published]
 
 jobs:
 
